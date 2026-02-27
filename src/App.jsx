@@ -10,11 +10,11 @@ import {
 } from "@react-three/drei";
 
 function SmartCityModel() {
-  const { scene } = useGLTF("/smart_city.glb");
+  const { scene } = useGLTF("/smart_city1.glb");
   return (
     <Float speed={1.5} rotationIntensity={0.4} floatIntensity={0.6}>
       <Center position={[2.5, 0, 0]}>
-        <primitive object={scene} scale={2.8} rotation={[0, -Math.PI / 5, 0]} />
+        <primitive object={scene} scale={1.9} rotation={[0, -Math.PI / 5, 0]} />
       </Center>
     </Float>
   );
